@@ -1,13 +1,15 @@
 body{
-    height: 100vh;
-    background-color: hsl(330, 100%, 98%);
+    min-height: 100vh;
+    background-color: hsl(330, 100%, 95%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
     width: 46.182vh;
-    height: fit-content;
-
+    padding: 10vh;
 }
